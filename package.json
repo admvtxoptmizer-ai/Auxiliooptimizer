@@ -1,0 +1,23 @@
+{
+  "name": "auxilio-optimizer",
+  "version": "1.0.0",
+  "description": "Auxilio Optimizer para Free Fire",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Build complete'",
+    "deploy": "netlify deploy --prod",
+    "start": "node server.js"
+  },
+  "keywords": ["auxilio", "free-fire", "optimizer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/functions": "^2.4.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.10.0"
+  }
+}
